@@ -239,3 +239,5 @@ const desestructuracion = ({ marca, modelo, anio, color }) => {
     console.log(color);
     console.log(marca);
 }
+
+

@@ -12,14 +12,14 @@
     padding: 15px;
 /*border: solid rgb(168, 17, 143);*/
     border-radius: 35px;
-    background: rgb(240, 187, 247);
-    box-shadow: 15px 10px 5px 5px rgb(48, 25, 46);
+    background: rgb(245, 181, 253);
+    box-shadow: 10px 10px 5px 5px rgb(48, 25, 46);
 
 }
 
 .display{
     grid-column: span 4;
-    border: solid rgb(133, 6, 116);
+    border: solid rgb(241, 98, 222);
     padding: 15px;
     background: rgb(248, 247, 248);
     border-radius: 10px;
@@ -27,9 +27,31 @@
     margin-bottom: 12px;
     color: black;
     font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .colum-2{
     grid-column: span 2;
+}
+button{
+    cursor: pointer;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+   /* border: none;*/
+    background: rgb(241, 215, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    box-shadow: 3px 2px 2px 2px rgb(225, 115, 240);
+}
+
+
+button:hover{
+    background: rgb(249, 169, 252);
+}
+button:active{
+    background: rgb(222, 151, 224);
+
 }
