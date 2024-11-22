@@ -19,13 +19,13 @@
         <div id="id-display" class="display">
           0
         </div>
-        <button onclick="cambiarColor('label1','red')" class="colum-2">C</button>
-        <button >&larr;</button>
-        <button onclick="evaluarOperacion('%')">%</button>
+        <button onclick="borrar()" class="colum-2">C</button>
+        <button onclick="">&larr;</button>
+        <button onclick="evaluarOperacion('/')">%</button>
         <button onclick="recibirValor(7)">7</button>
         <button onclick="recibirValor(8)">8</button>
         <button onclick="recibirValor(9)">9</button>
-        <button onclick="evaluarOperacion('*')">x</button>
+        <button onclick="evaluarOperacion('*')">*</button>
         <button onclick="recibirValor(4)">4</button>
         <button onclick="recibirValor(5)">5</button>
         <button onclick="recibirValor(6)">6</button>
@@ -34,8 +34,10 @@
         <button onclick="recibirValor(2)">2</button>
         <button onclick="recibirValor(3)">3</button>
         <button onclick="evaluarOperacion('+')">+</button>
-        <button class="colum-2">0</button>
-        <button>.</button>
+        <button class="colum-2" onclick="recibirValor(0)">0</button>
+        <button>
+          <div onclick="recibirValor('.')">.</div>
+        </button>
         <button onclick="igual('=')">=</button>
 
       </div>
