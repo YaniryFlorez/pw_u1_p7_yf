@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #59abe3;
+}
+p:before{
+    /* aparece las letras de tipo type*/
+    content: attr(type);
+    display: block;/* pone el elemento en una sola linea independiente*/
+    margin: 3px;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+input{
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #bebed2;/* se pone un borde al pie del input*/
+    background: none;
+
+    
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #b1b1c5;/* se pone un borde al pie del input*/ 
+}
+h2{
+    margin: 10px 2px;/* 10 arriba y abajo, 2 a los lados*/
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+}
+/* la parte del formulario, a todos los elementos*/
+form{
+    width: 300px ;
+    height: 425px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-shadow:15px 10px 5px 5px rgb(10,10,10);
+}

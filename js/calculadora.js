@@ -54,14 +54,19 @@ function igual() {
                 valorFinal = "Error";
         }
 
-        setearValor(valorFinal.toFixed(4)); // Muestra el resultado toFixed(4) muestra las 4 primeras decimas
+        // Verifica si el resultado es un número entero
+        if (Number.isInteger(valorFinal)) {
+            setearValor(valorFinal); // Muestra el resultado sin decimales
+        } else {
+            setearValor(valorFinal.toFixed(4)); // Muestra el resultado con 4 decimales
+        }
+        
         num1 = valorFinal.toString(); // Permite encadenar operaciones
         num2 = ""; // Reinicia num2
         operacion = ""; // Reinicia la operación
         primerNumeroIngresado = false; // Reinicia el estado
     }
 }
-
 function borrar() {
     // Reinicia todos los valores
     num1 = "";
