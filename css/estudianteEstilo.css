@@ -3,6 +3,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.copia-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body{
     background-color: #59abe3;
 }
@@ -41,4 +47,15 @@ form{
     padding-top: 15px;
     padding-left: 15px;
     box-shadow:15px 10px 5px 5px rgb(10,10,10);
+}
+
+button{
+    background:  #e6e6e6;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    color: #5a5a5a;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px solid #78788c;
 }
